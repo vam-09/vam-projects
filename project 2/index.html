@@ -1,0 +1,44 @@
+<!doctype html>
+    <html>
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http.equiv="X-UA-Compatible" content="ie-edge">
+            <title>
+                SIMULATION
+            </title>
+            <script src="app.js" defer> </script>
+            <script src="framework.js" ></script>
+            <style>  
+                body
+                {
+                    border:solid black;
+                    background-color:white;
+                    font-family:verdana,georgia,serif;
+                    text-decoration:underline; 
+                    font-family:Elephant;   
+   
+                }
+                h1
+                {
+                    background-color:black;
+                    color:white;
+                    text-decoration:underline;
+                    font-family:Elephant;
+                }
+            </style>
+        </head>
+        <body>
+        <center>
+        <h1>SIMULATION</h1>
+        <div>
+            <canvas id="mycanvas" height="500" width="700" style="border:5px; border-style:solid; border-color:black; height:500px;width:700px;"></canvas>
+            <div class="slidecontainer">
+            <input type="range" oninput="function2()" onchange="function2()" min="1" max="120" value="20" class="slider1" id="slider1" style="height:120px; -webkit-appearance:slider-vertical;position:absolute;left:320px;top:200px;"><br></div>
+            <div>
+            <input type="range" oninput="function2()" onchange="function2()" min="1" max="120" value="20" class="slider2" id="slider2" style="height:120px; -webkit-appearance:slider-vertical;position:absolute;left:320px;top:400px;">
+            </div class="slidecontainer">
+            </div>
+            </br>
+        </body>
+    </html>
