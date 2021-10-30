@@ -1,3 +1,4 @@
+// javascript file
 var canvas = document.getElementById("mycanvas");
 var context = canvas.getContext("2d");
 var slider1 = document.getElementById("slider1");
